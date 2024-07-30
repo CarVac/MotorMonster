@@ -11,6 +11,8 @@ Other boards use StepStick drivers for modularity, but those have worse thermal 
 The goal of this project is to have a focused, single-board solution for high performance motor driving, leaving everything else to be left to a standard 3D printer motherboard.
 With 5 drivers, it should be suitable for 4WD CoreXY + an extruder, or cross gantry + an extruder.
 
+You can choose what sense resistors you want to tailor the board to your own needs.
+
 The MCU is an RP2040, which may be a tad bit slow for the very fastest applications but it's a chip I have a lot of experience with, reducing development risk.
 
 # Acknowledgements
