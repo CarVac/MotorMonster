@@ -1613,153 +1613,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Fuse_Small"
 			(pin_numbers hide)
 			(pin_names
@@ -6082,6 +5935,12 @@
 		(uuid "12d79083-c9cd-4807-af8b-9b6c5fe1fb42")
 	)
 	(junction
+		(at 219.71 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b9c347e-b31a-406c-a35a-53f93276f37a")
+	)
+	(junction
 		(at 250.19 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6250,16 +6109,16 @@
 		(uuid "ad98fb41-4958-43c3-b2b5-9bd41de5c0ef")
 	)
 	(junction
-		(at 173.99 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae1ec9df-7bdb-4f9a-b195-f25882c580e1")
-	)
-	(junction
 		(at 74.93 171.704)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae72b70f-1f1d-40db-865b-c3c990775c02")
+	)
+	(junction
+		(at 173.99 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2470ac1-b8df-46a9-9931-c9c9f780d2e0")
 	)
 	(junction
 		(at 88.646 22.098)
@@ -6379,7 +6238,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 83.82) (xy 236.22 83.82)
+			(xy 229.87 83.82) (xy 236.22 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7159,6 +7018,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 83.82) (xy 224.79 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8124fee9-509b-439c-a817-8c8f7f2995b7")
+	)
+	(wire
+		(pts
 			(xy 151.765 125.73) (xy 156.845 125.73)
 		)
 		(stroke
@@ -7249,6 +7118,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 86.36) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f811bef-9848-41dd-a261-95fc29d61edc")
+	)
+	(wire
+		(pts
 			(xy 48.26 187.96) (xy 48.26 186.69)
 		)
 		(stroke
@@ -7306,6 +7185,16 @@
 			(type default)
 		)
 		(uuid "a20518f2-5642-41d2-8ce8-f805051a97fd")
+	)
+	(wire
+		(pts
+			(xy 168.91 87.63) (xy 173.99 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a36e3e8b-63f0-4c43-8821-8fccea2474d9")
 	)
 	(bus
 		(pts
@@ -7569,16 +7458,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 83.82) (xy 222.25 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daab43a3-58da-404c-bd85-791c2f482857")
-	)
-	(wire
-		(pts
 			(xy 122.555 184.15) (xy 113.665 184.15)
 		)
 		(stroke
@@ -7626,6 +7505,16 @@
 			(type default)
 		)
 		(uuid "e0b1202d-5b4a-4454-b607-b2c0cc732ff6")
+	)
+	(wire
+		(pts
+			(xy 219.71 78.74) (xy 219.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e13955cb-6da9-47cc-a25a-f505dfe1f784")
 	)
 	(wire
 		(pts
@@ -8662,6 +8551,28 @@
 			)
 		)
 	)
+	(global_label "Vh"
+		(shape input)
+		(at 219.71 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea2421ad-d918-42ce-88d2-da3d2d4ea87c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.4872 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "XTAL_IN"
 		(shape input)
 		(at 108.585 179.07 180)
@@ -8687,7 +8598,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 219.71 86.36 0)
+		(at 222.25 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8696,7 +8607,7 @@
 		(fields_autoplaced yes)
 		(uuid "0aa1f428-498c-4b90-8863-6a864accc22b")
 		(property "Reference" "#PWR052"
-			(at 219.71 92.71 0)
+			(at 222.25 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8705,7 +8616,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 91.44 0)
+			(at 222.25 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8713,7 +8624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 86.36 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8722,7 +8633,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 86.36 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8731,7 +8642,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 86.36 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9544,88 +9455,6 @@
 			(project "OpenRectangleTemplate"
 				(path "/798975c2-d104-4b51-bc9d-eb81d8f1bd39"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 171.45 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "296978e0-33b4-460e-8abe-459a337caa09")
-		(property "Reference" "D1"
-			(at 174.8028 79.883 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Schottky Diode"
-			(at 174.8028 82.423 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 171.45 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8598"
-			(at 171.45 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0a35bdb0-6384-4fbb-88b8-efcea6b3cb8b")
-		)
-		(pin "2"
-			(uuid "97ea31aa-11ff-4e99-a346-279d838e8bc3")
-		)
-		(instances
-			(project "OpenRectangle"
-				(path "/0ee7bd02-e26d-4978-ae8c-675a718c78c0"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-			(project "OpenRectangleTemplate"
-				(path "/798975c2-d104-4b51-bc9d-eb81d8f1bd39"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -11915,8 +11744,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 214.63 83.82 0)
-		(mirror y)
+		(at 214.63 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11924,7 +11752,7 @@
 		(dnp no)
 		(uuid "8821066d-ee91-49d7-aa2e-4b2e1ec222be")
 		(property "Reference" "J3"
-			(at 212.09 83.8199 0)
+			(at 212.09 86.3601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11933,7 +11761,7 @@
 			)
 		)
 		(property "Value" "HV In"
-			(at 212.09 86.3599 0)
+			(at 212.09 83.8201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11942,7 +11770,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 214.63 83.82 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11951,7 +11779,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 214.63 83.82 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11960,7 +11788,7 @@
 			)
 		)
 		(property "Description" "CUI Devices TB010-508-02BE"
-			(at 214.63 83.82 0)
+			(at 214.63 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13552,7 +13380,7 @@
 	(symbol
 		(lib_name "Fuse_Small_1")
 		(lib_id "Device:Fuse_Small")
-		(at 224.79 83.82 0)
+		(at 227.33 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13561,7 +13389,7 @@
 		(fields_autoplaced yes)
 		(uuid "ccde8e20-1a7d-444b-9836-274298016470")
 		(property "Reference" "F2"
-			(at 224.79 78.74 0)
+			(at 227.33 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13569,7 +13397,7 @@
 			)
 		)
 		(property "Value" "Fuse_Small"
-			(at 224.79 81.28 0)
+			(at 227.33 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13577,7 +13405,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Clip-6.3x32mm_Littelfuse_122_Inline_P34.21x7.62mm_D2.54mm_Horizontal"
-			(at 224.79 83.82 0)
+			(at 227.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13586,7 +13414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 83.82 0)
+			(at 227.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13595,7 +13423,7 @@
 			)
 		)
 		(property "Description" "Littelfuse 01220083"
-			(at 224.79 83.82 0)
+			(at 227.33 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
